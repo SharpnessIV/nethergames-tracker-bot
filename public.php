@@ -11,7 +11,7 @@ use Discord\Parts\Embed\Embed;
 
 
 $bot = new Discord([
-    'token' => '####',
+    'token' => 'MTE5MTI1OTM1NDE5MjY3ODk5NQ.GlfsMr.U-lz5DqPI8geuxY_pnHZAg-0uMPPtGCWjLJ5FQ,
     'loadAllMembers' => true,
     'intents' => Intents::getDefaultIntents() | Intents::GUILD_MEMBERS,
 ]);
